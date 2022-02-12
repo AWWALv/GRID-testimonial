@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: hsl(210, 46%, 95%);
+}
+.container{
+    margin: 10px 20px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 20px;
+    cursor: pointer;
+    scroll-behavior: smooth;
+}
+.profile-area{
+    display: flex;
+}
+.profile-area img{
+    border-radius: 50%;
+}
+.profile-area p{
+    padding: 10px 0px 0px 10px;
+}
+.text-area h3{
+    padding: 20px 0px;
+    font-size: 20px;
+}
+.text-area h5{
+    color: hsl(0, 0%, 70%);
+}
+.special-verified{
+    color: hsl(0, 0%, 50%);
+}
+.special-name{
+    color:hsl(217, 19%, 35%);
+}
+.verified-jean{
+   color: hsl(0, 0%, 81%);
+}
+.special-text-area h3{
+    color: hsl(217, 19%, 35%);
+    padding: 20px 0px;
+    font-size: 20px;
+}
+.special-text-area h5{
+    color: hsl(0, 0%, 81%);
+}
+.daniel-box{
+    color: white;
+    background-color:  hsl(263, 55%, 52%);
+    background-image: url(./images/bg-pattern-quotation.svg);
+    background-position-x: right;
+    background-repeat: no-repeat;
+    background-position: fixed;
+    padding: 40px;
+    line-height: 1.2;
+    border-radius: 20px;   
+}
+.johnathan-box{
+    color: white;
+    background-color:  hsl(217, 19%, 35%);
+    border-radius: 20px;
+    padding: 40px;
+}
+.jeanette-box{
+    border-radius: 20px;
+    padding: 40px;
+    background-color:whitesmoke;
+}
+.patrick-box{
+    color: white;
+    background-color: hsl(219, 29%, 14%);
+    border-radius: 20px;
+    padding: 40px;
+}
+.kira-box{
+    background-color:whitesmoke;
+    border-radius: 20px;
+    padding: 40px;
+}
+.attribution { 
+    font-size: 12px; 
+    text-align: center; 
+    margin: 20px 0px;
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+@media screen and (min-width:800px) {
+  .container{
+    margin: 40px 40px 0px 40px;
+    display: grid;
+    grid-gap: 30px;
+    cursor: pointer;
+    scroll-behavior: smooth;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+  .daniel-box{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+  .johnathan-box{
+    grid-column-end: 4;
+
+}
+  .jeanette-box{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+  .patrick-box{
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+  .kira-box{
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+  .attribution { 
+    font-size: 20px; 
+    text-align: center; 
+    margin-top: 20px;
+}
+  .attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+}
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
